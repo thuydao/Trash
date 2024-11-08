@@ -1,4 +1,4 @@
-globalThis.sendUpdate = async (...args) => {
+const sendUpdate = async (...args) => {
   console.log("Received params:", args);
   // Thực hiện các xử lý khác với params
 };
