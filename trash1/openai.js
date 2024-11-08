@@ -1,4 +1,4 @@
-const axios = require("axios");
+import axios from 'axios';
 const sendUpdate = async (...args) => {
   try {
   const [url] = args
